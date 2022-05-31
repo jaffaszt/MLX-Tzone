@@ -55,15 +55,15 @@ A cluster will be allocated for you , this might take a few secounds....
 
 
 
-# 3) Deploy on Code Engine - follow the steps below to get the option to deploy with Code Engine 
+# 3) Deploy on Code Engine 
 
-# Request to be authorized to create Code Engine projects under the IBM Lab Account  
-1. [Please go to:](https://code-engine-workshop.mybluemix.net) with the password of `cerocks`
- 
-![](README_IMAGES/IBMCloudLab.png)
+# Reserve a Code Engine project: 
+1. [Please go to:] https://techzone.ibm.com/collection/code-engine-fundamentals
 
-
- 2. You will get an email invitation , please click on the link and follow the insturctions in the link until you login to the IBM Cloud 
+2. You will get an email "Your environment is ready" , please notice the Project name, Region and Resource Group 
+![](README_IMAGES/env.png)
+3. 
+4. invitation , please click on the link and follow the insturctions in the link until you login to the IBM Cloud 
  <!---    2. Click on the "Login in to this" to Login in to the IBM  Cloud (or via https://cloud.ibm.com/) --->
 
 <!---     ![](README_IMAGES/LogIn.png) --->
