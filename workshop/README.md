@@ -43,8 +43,8 @@ This will pull a pre-built image from the Quay.io container registry (or use an 
 this is the Code Engine User Interface , you will be able to deploy apps from here, but we will start first deploying applications using the CE CLI.
 2. Click on the  IBM Cloud Shell (at the right side of the screen), IBM CLoud Shell has all the needed CLI's installed .
 ![](README_IMAGES/gotocli.png)  
-3. Target a resource group by running the following command, and use the resource group accoring to the email that you got  `ibmcloud target -g code-engine`
-5. Go to the  Code Engine  project that was created for you as in instructed in the email  `ibmcloud ce project target --name  itzce-1100008vs5-yvs1z12t'
+3. Target a resource group by running the following command, and use the resource group according to the email that you got  `ibmcloud target -g code-engine`
+5. Target the  Code Engine  project that was created for you as instructed in the email  `ibmcloud ce project target --name  itzce-1100008vs5-yvs1z12t'
 itzce-1100008vs5-yvs1z12t is an example you need to put the project name that you got as instructed in the email 
 6. Run the container by pointing to the quay.io image and exposting port 5000.
 
