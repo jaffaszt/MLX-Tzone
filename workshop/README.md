@@ -10,8 +10,9 @@ The Lab is base on https://github.com/IBM/MAX-Object-Detector#deploy-on-red-hat-
 
 We will deploy the Object Detector Model in three enviroments :
 1) Deploy with Docker on local 
-2) Deploy on Red Hat OpenShift  
-3) Deploy on Code Engine  
+2) Deploy on Code Engine  
+3) Deploy on Red Hat OpenShift  
+
 
 
 # 1) Deploy with Docket on local 
@@ -24,46 +25,18 @@ To run the docker image, which automatically starts the model serving API, run:
 This will pull a pre-built image from the Quay.io container registry (or use an existing image if already cached locally) and run it. If you'd rather checkout and build the model locally you can follow  https://github.com/IBM/MAX-Object-Detector#run-locally
  
 
-
-# 2) To Deploy on Openshift (updated)  - follow the updated instructions bellow 
-
-# Get a preconfigured OpenShift environment available for four hours at no charge
-1. [access to IBM Openshift  Cluster]( https://developer.ibm.com/openlabs/openshift)
-
-2. Click on Bring Your Own Application    
-
-![](README_IMAGES/BringYourOwn1.png)
-
-A cluster will be allocated for you , this might take a few secounds.... 
-<!-- ( optional not part of the workshop  : you may run Lab 1 ,2 ,3 to learn about Openshift ) -->
-# Access the OpenShift web console to your cluster 
-![](README_IMAGES/GoToOpenshift2.png)
-# Choose to work with Developer View
-![](README_IMAGES/DeveloperView3.png)
-# Go to Create Project
-![](README_IMAGES/GoCreateProject.png)
-# Create Project by the name of `max-deployments`
-![](README_IMAGES/CreateProject.png)
-# Choose from Docker image
-![](README_IMAGES/FromDocker4.png)
-# Enter codait/max-object-detector as Image name and click on tab so other fileds will be fields accordingly and then click on the Create button
-![](README_IMAGES/DeployImage.png)
-# Click on the round image 
-![](README_IMAGES/FindRoute.png)
-# Click on the route to run the model 
-![](README_IMAGES/ClickOnRoute.png)
-
-
-
-# 3) Deploy on Code Engine 
+# 2) Deploy on Code Engine 
 
 # Reserve a Code Engine project: 
 1. [Please go to:] https://techzone.ibm.com/collection/code-engine-fundamentals
 
-2. You will get an email "Your environment is ready" , please notice the Project name, Region and Resource Group. You will need to follow the instruction accept the invitation, login to IBM Cloud and 
+2. You will get an email "Your environment is ready" .You will need to follow the instruction and accept the invitation to join an a account in IBM Cloud . 3. Please notice the Project name, Region and Resource Group. 
 ![](README_IMAGES/env.png)
-3. 
-4. invitation , please click on the link and follow the insturctions in the link until you login to the IBM Cloud 
+3. Login to IBM Cloud and make sure you are working on the right IBM Account that you where just invited to 
+![](README_IMAGES/account.png)
+
+4. 
+5. invitation , please click on the link and follow the insturctions in the link until you login to the IBM Cloud 
  <!---    2. Click on the "Login in to this" to Login in to the IBM  Cloud (or via https://cloud.ibm.com/) --->
 
 <!---     ![](README_IMAGES/LogIn.png) --->
@@ -91,6 +64,37 @@ this is the Code Engine User Interface , you will be able to deploy apps from he
 7. Open the resulting URL in a browser, append /app to view the app instead of the API.
 
 
+
+
+
+
+# 3) To Deploy on Openshift (updated)  - follow the updated instructions bellow 
+
+# Get a preconfigured OpenShift environment available for four hours at no charge
+1. [access to IBM Openshift  Cluster]( https://developer.ibm.com/openlabs/openshift)
+
+2. Click on Bring Your Own Application    
+
+![](README_IMAGES/BringYourOwn1.png)
+
+A cluster will be allocated for you , this might take a few secounds.... 
+<!-- ( optional not part of the workshop  : you may run Lab 1 ,2 ,3 to learn about Openshift ) -->
+# Access the OpenShift web console to your cluster 
+![](README_IMAGES/GoToOpenshift2.png)
+# Choose to work with Developer View
+![](README_IMAGES/DeveloperView3.png)
+# Go to Create Project
+![](README_IMAGES/GoCreateProject.png)
+# Create Project by the name of `max-deployments`
+![](README_IMAGES/CreateProject.png)
+# Choose from Docker image
+![](README_IMAGES/FromDocker4.png)
+# Enter codait/max-object-detector as Image name and click on tab so other fileds will be fields accordingly and then click on the Create button
+![](README_IMAGES/DeployImage.png)
+# Click on the round image 
+![](README_IMAGES/FindRoute.png)
+# Click on the route to run the model 
+![](README_IMAGES/ClickOnRoute.png)
 
 
 
