@@ -28,7 +28,7 @@ This will pull a pre-built image from the Quay.io container registry (or use an 
 # 2) Deploy on Code Engine 
 
 # Reserve a Code Engine project: 
-1. [Please go to:] https://techzone.ibm.com/collection/code-engine-fundamentals
+1. [To reserve a Code Engine Project:] (https://techzone.ibm.com/collection/code-engine-fundamentals)
 
 2. You will get an email "Your environment is ready" .You will need to follow the instruction and accept the invitation to join an a account in IBM Cloud . 3. Please notice the Project name, Region and Resource Group. 
 ![](README_IMAGES/env.png)
