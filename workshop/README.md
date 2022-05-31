@@ -50,6 +50,7 @@ this is the Code Engine User Interface , you will be able to deploy apps from he
 `ibmcloud ce project target --name  itzce-1100008vs5-yvs1z12t`
 
 itzce-1100008vs5-yvs1z12t is an example you need to put the project name that you got as instructed in the email 
+
 5. Run the container by pointing to the quay.io image and exposting port 5000.
 
 `ibmcloud ce application create --name max-object-detector --image quay.io/codait/max-object-detector --port 5000`
