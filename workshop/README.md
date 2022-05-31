@@ -60,7 +60,7 @@ A cluster will be allocated for you , this might take a few secounds....
 # Reserve a Code Engine project: 
 1. [Please go to:] https://techzone.ibm.com/collection/code-engine-fundamentals
 
-2. You will get an email "Your environment is ready" , please notice the Project name, Region and Resource Group 
+2. You will get an email "Your environment is ready" , please notice the Project name, Region and Resource Group. You will need to follow the instruction accept the invitation, login to IBM Cloud and 
 ![](README_IMAGES/env.png)
 3. 
 4. invitation , please click on the link and follow the insturctions in the link until you login to the IBM Cloud 
