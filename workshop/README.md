@@ -13,8 +13,7 @@ We will deploy the Object Detector Model in three enviroments :
 3) Deploy on Code Engine  
 
 
-# 1) 
-Deploy with Docket on local 
+# 1) Deploy with Docket on local 
 
 To run the docker image, which automatically starts the model serving API, run:
 
