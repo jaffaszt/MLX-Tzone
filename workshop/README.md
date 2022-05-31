@@ -47,6 +47,7 @@ this is the Code Engine User Interface , you will be able to deploy apps from he
   `ibmcloud target -g code-engine`
 5. Target the  Code Engine  project that was created for you as instructed in the email  
 `ibmcloud ce project target --name  itzce-1100008vs5-yvs1z12t'
+
 itzce-1100008vs5-yvs1z12t is an example you need to put the project name that you got as instructed in the email 
 6. Run the container by pointing to the quay.io image and exposting port 5000.
 
