@@ -6,7 +6,7 @@
 ![](README_IMAGES/Register.png)
 
 
-# The Lab is base on https://github.com/IBM/MAX-Object-Detector#deploy-on-red-hat-openshift and run from there 
+# The Lab is base on https://github.com/IBM/MAX-Object-Detector#deploy-on-red-hat-openshift 
 We will deploy the Object Detector Model in three enviroments :
 1) Deploy with Docker on local 
 2) Deploy on Red Hat OpenShift  
