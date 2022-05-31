@@ -7,12 +7,21 @@
 
 
 # The Lab is base on https://github.com/IBM/MAX-Object-Detector#deploy-on-red-hat-openshift and run from there 
-1) Deploy from Quay - to run based on Docker on local- run as instructed in the base lab 
-2) Deploy on Red Hat OpenShift - you will need to follow the steps below to get an Openshift cluster and a more updated screen shots 
-3) Deploy on Code Engine - follow the steps below to get the option to deploy with Code Engine 
+We will deploy the Object Detector Model in three enviroments :
+1) Deploy with Docker on local 
+2) Deploy on Red Hat OpenShift  
+3) Deploy on Code Engine  
 
 
+# 1) 
+Deploy with Docket on local 
 
+To run the docker image, which automatically starts the model serving API, run:
+
+$ docker run -it -p 5000:5000 quay.io/codait/max-object-detector
+
+
+This will pull a pre-built image from the Quay.io container registry (or use an existing image if already cached locally) and run it. If you'd rather checkout and build the model locally you can follow  https://github.com/IBM/MAX-Object-Detector#run-locally
  
 
 
