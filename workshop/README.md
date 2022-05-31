@@ -30,7 +30,7 @@ This will pull a pre-built image from the Quay.io container registry (or use an 
 # Reserve a Code Engine project: 
 1. [Reserve a Code Engine Project:](https://techzone.ibm.com/collection/code-engine-fundamentals)
 
-2. You will get an email "Your environment is ready" .You will need to follow the instruction and accept the invitation to join an a account in IBM Cloud . 3. Please notice the Project name, Region and Resource Group. 
+2. You will get an email "Your environment is ready" .You will need to follow the instructions and accept the invitation to join an a account in IBM Cloud 3. Please notice the Project name, Region and Resource Group. 
 ![](README_IMAGES/env.png)
 3. Login to IBM Cloud and make sure you are working on the right IBM Account that you where just invited to 
 ![](README_IMAGES/account.png)
