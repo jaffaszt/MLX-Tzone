@@ -79,7 +79,7 @@ itzce-1100008vs5-yvs1z12t is an example you need to put the project name that yo
 # Create Project by the name of `max-deployments`
 ![](README_IMAGES/CreateProject.png)
 # Choose from Docker image
-![](README_IMAGES/FromDocker4.png)
+![](README_IMAGES/choose.png)
 # Enter codait/max-object-detector as Image name and click on tab so other fileds will be fields accordingly and then click on the Create button
 ![](README_IMAGES/DeployImage.png)
 # Click on the round image 
