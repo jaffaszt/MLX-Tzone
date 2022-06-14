@@ -70,8 +70,8 @@ itzce-1100008vs5-yvs1z12t is an example you need to put the project name that yo
 
 2. You will get a few emails with information about your environment. Please notice that email that is inviting you to join an account in IBM Cloud  and follow the instructions and accept the invitation. Also notice an email stating "Your environment is ready"  follow the links it will take you to your environment "My reservations" .
 
-# Access the OpenShift web console to your cluster 
-![](README_IMAGES/GoToOpenshift2.png)
+# Access the OpenShift web console  
+![](README_IMAGES/ROKS.png)
 # Choose to work with Developer View
 ![](README_IMAGES/DeveloperView3.png)
 # Go to Create Project
