@@ -66,15 +66,10 @@ itzce-1100008vs5-yvs1z12t is an example you need to put the project name that yo
 
 
 # Reserve a Managed OpenShift cluster:
-1. [Reserve an Openshift Cluster] (https://techzone.ibm.com/collection/custom-roks-vmware-requests)
-1. [access to IBM Openshift  Cluster]( https://developer.ibm.com/openlabs/openshift)
+1. [Reserve an Openshift Cluster](https://techzone.ibm.com/collection/custom-roks-vmware-requests)
 
-2. Click on Bring Your Own Application    
+2. You will get an email "Your environment is ready" .You will need to follow the instructions and accept the invitation to join an a account in IBM Cloud
 
-![](README_IMAGES/BringYourOwn1.png)
-
-A cluster will be allocated for you , this might take a few secounds.... 
-<!-- ( optional not part of the workshop  : you may run Lab 1 ,2 ,3 to learn about Openshift ) -->
 # Access the OpenShift web console to your cluster 
 ![](README_IMAGES/GoToOpenshift2.png)
 # Choose to work with Developer View
