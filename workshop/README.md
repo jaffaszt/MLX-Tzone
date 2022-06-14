@@ -30,7 +30,7 @@ This will pull a pre-built image from the Quay.io container registry (or use an 
 # Reserve a Code Engine project: 
 1. [Reserve a Code Engine Project:](https://techzone.ibm.com/collection/code-engine-fundamentals)
 
-2. You will get an email "Your environment is ready" .You will need to follow the instructions and accept the invitation to join an a account in IBM Cloud
+2. You will get a few emails with information about your environment. Please notice that email that is inviting you to join an account in IBM Cloud  and follow the instructions and accept the invitation. Also notice an email stating "Your environment is ready"  follow the links it will take you to your environment "My reservations" .
 3. Please notice the Project name, Region and Resource Group. 
 ![](README_IMAGES/env.png)
 3. Login to IBM Cloud and make sure you are working on the right IBM Account that you where just invited to 
@@ -68,7 +68,7 @@ itzce-1100008vs5-yvs1z12t is an example you need to put the project name that yo
 # Reserve a Managed OpenShift cluster:
 1. [Reserve an Openshift Cluster](https://techzone.ibm.com/collection/custom-roks-vmware-requests)
 
-2. You will get an email "Your environment is ready" .You will need to follow the instructions and accept the invitation to join an a account in IBM Cloud
+2. You will get a few emails with information about your environment. Please notice that email that is inviting you to join an account in IBM Cloud  and follow the instructions and accept the invitation. Also notice an email stating "Your environment is ready"  follow the links it will take you to your environment "My reservations" .
 
 # Access the OpenShift web console to your cluster 
 ![](README_IMAGES/GoToOpenshift2.png)
