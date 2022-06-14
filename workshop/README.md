@@ -64,7 +64,9 @@ itzce-1100008vs5-yvs1z12t is an example you need to put the project name that yo
 
 # 3) To Deploy on Openshift (updated)  - follow the updated instructions bellow 
 
-# Get a preconfigured OpenShift environment available for four hours at no charge
+
+# Reserve a Managed OpenShift cluster:
+1. [Reserve an Openshift Cluster] (https://techzone.ibm.com/collection/custom-roks-vmware-requests)
 1. [access to IBM Openshift  Cluster]( https://developer.ibm.com/openlabs/openshift)
 
 2. Click on Bring Your Own Application    
