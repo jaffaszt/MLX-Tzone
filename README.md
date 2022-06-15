@@ -6,5 +6,5 @@
   Object Detector Model  https://github.com/IBM/MAX-Object-Detector
 
 - [presentation](./presentation) -- the data for the teacher/leader of the workshop
-- [workshop](./workshop) -- the vanilla code for the code of the workshop
+- [Lab / workshop](./workshop) -- the vanilla code for the code of the workshop
 
