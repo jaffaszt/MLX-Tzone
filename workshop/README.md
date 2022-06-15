@@ -1,9 +1,4 @@
 
-'# Register to IBM Cloud 
-
-'[Register IBM Cloud](https://cloud.ibm.com/registration)
-
-'![](README_IMAGES/Register.png)
 
 
 The Lab is based on https://github.com/IBM/MAX-Object-Detector#deploy-on-red-hat-openshift 
