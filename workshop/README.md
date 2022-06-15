@@ -1,12 +1,12 @@
 
-# Register to IBM Cloud 
+'# Register to IBM Cloud 
 
-[Register IBM Cloud](https://cloud.ibm.com/registration)
+'[Register IBM Cloud](https://cloud.ibm.com/registration)
 
-![](README_IMAGES/Register.png)
+'![](README_IMAGES/Register.png)
 
 
-The Lab is base on https://github.com/IBM/MAX-Object-Detector#deploy-on-red-hat-openshift 
+The Lab is based on https://github.com/IBM/MAX-Object-Detector#deploy-on-red-hat-openshift 
 
 We will deploy the Object Detector Model in three enviroments :
 1) Deploy with Docker on local 
