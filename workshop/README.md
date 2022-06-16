@@ -53,7 +53,7 @@ itzce-1100008vs5-yvs1z12t is an example you need to put the project name that yo
 
 ## Reserve a Managed OpenShift cluster:
 
-1. [Reserve an Openshift Cluster](https://techzone.ibm.com/collection/custom-roks-vmware-requests)
+1. [Reserve an Openshift Cluster](https://techzone.ibm.com/collection/Easy-to-deploy-containers)
 
 2. You will get a few emails with information about your environment. Please notice that email that is inviting you to join an account in IBM Cloud  and follow the instructions and accept the invitation. Also notice an email stating "Your environment is ready"  follow the links it will take you to your environment "My reservations" .
 
