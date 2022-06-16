@@ -1,29 +1,26 @@
+# Deploy a Model Learning Exchange container three ways
 
-
-
-The Lab is based on https://github.com/IBM/MAX-Object-Detector#deploy-on-red-hat-openshift 
+The Lab is based on <https://github.com/IBM/MAX-Object-Detector#deploy-on-red-hat-openshift> 
 
 We will deploy the Object Detector Model in three enviroments :
-1) Deploy with Docker on local 
-2) Deploy on Code Engine  
-3) Deploy on Red Hat OpenShift  
 
+1. Deploy with Docker on local 
+1. Deploy on Code Engine  
+1. Deploy on Red Hat OpenShift  
 
-
-# 1) Deploy with Docket on local 
+## 1) Deploy with Docker on local
 
 To run the docker image, which automatically starts the model serving API, run:
 
 `$ docker run -it -p 5000:5000 quay.io/codait/max-object-detector`
 
+This will pull a pre-built image from the Quay.io container registry (or use an existing image if already cached locally) and run it. If you'd rather checkout and build the model locally you can follow  <https://github.com/IBM/MAX-Object-Detector#run-locally>
 
-This will pull a pre-built image from the Quay.io container registry (or use an existing image if already cached locally) and run it. If you'd rather checkout and build the model locally you can follow  https://github.com/IBM/MAX-Object-Detector#run-locally
- 
+## 2) Deploy on Code Engine
 
-# 2) Deploy on Code Engine 
+### Reserve a Code Engine project
 
-# Reserve a Code Engine project: 
-1. [Reserve a Code Engine Project:](https://techzone.ibm.com/collection/code-engine-fundamentals)
+1. [Reserve a Code Engine Project:](techzone.md)
 
 2. You will get a few emails with information about your environment. Please notice that email that is inviting you to join an account in IBM Cloud  and follow the instructions and accept the invitation. Also notice an email stating "Your environment is ready"  follow the links it will take you to your environment "My reservations" .
 3. Please notice the Project name, Region and Resource Group. 
@@ -31,7 +28,7 @@ This will pull a pre-built image from the Quay.io container registry (or use an 
 3. Login to IBM Cloud and make sure you are working on the right IBM Account that you where just invited to 
 ![](README_IMAGES/account.png)
 
-# Go to Code Engine and start working 
+## Go to Code Engine and start working
  
 1. From the IBM Cloud dashboard choose Code Engine from the left side bar 
 ![](README_IMAGES/GoToCE.png)
@@ -52,40 +49,42 @@ itzce-1100008vs5-yvs1z12t is an example you need to put the project name that yo
 
 6. Open the resulting URL in a browser, append /app to view the app instead of the API.
 
+## 3) To Deploy on Openshift (updated)  - follow the updated instructions bellow 
 
+## Reserve a Managed OpenShift cluster:
 
-
-
-
-# 3) To Deploy on Openshift (updated)  - follow the updated instructions bellow 
-
-
-# Reserve a Managed OpenShift cluster:
 1. [Reserve an Openshift Cluster](https://techzone.ibm.com/collection/custom-roks-vmware-requests)
 
 2. You will get a few emails with information about your environment. Please notice that email that is inviting you to join an account in IBM Cloud  and follow the instructions and accept the invitation. Also notice an email stating "Your environment is ready"  follow the links it will take you to your environment "My reservations" .
 
-# Access the OpenShift web console  
+## Access the OpenShift web console  
+
 ![](README_IMAGES/ROKS.png)
-# Choose to work with Developer View
+
+### Choose to work with Developer View
+
 ![](README_IMAGES/DeveloperView3.png)
-# Go to Create Project
+
+### Go to Create Project
+
 ![](README_IMAGES/GoCreateProject.png)
-# Create Project by the name of `max-deployments`
+
+### Create Project by the name of `max-deployments`
+
 ![](README_IMAGES/CreateProject.png)
-# Choose from Docker image
+
+### Choose from Docker image
+
 ![](README_IMAGES/choose.png)
-# Enter codait/max-object-detector as Image name and click on tab so other fileds will be fields accordingly and then click on the Create button
+
+### Enter codait/max-object-detector as Image name and click on tab so other fileds will be fields accordingly and then click on the Create button
+
 ![](README_IMAGES/DeployImage.png)
-# Click on the round image 
+
+### Click on the round image 
+
 ![](README_IMAGES/FindRoute.png)
-# Click on the route to run the model 
+
+### Click on the route to run the model
+
 ![](README_IMAGES/ClickOnRoute.png)
-
-
-
-
- 
-
- 
-
