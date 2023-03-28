@@ -10,7 +10,7 @@
 
 ## Step 3: Create a reservation
 
-In `Create a reservation` example you can chose `Reserve now` as type for your reservation
+Choose the **Code Engine for MLX Containers** environment and click on **Reserve**, then for `Create a reservation` choose `Reserve now` for your reservation
 
 ![Create Reservation](images/techzone-01.png)
 

@@ -49,17 +49,19 @@ itzce-1100008vs5-yvs1z12t is an example you need to put the project name that yo
 
 6. Open the resulting URL in a browser, append /app to view the app instead of the API.
 
-## 3) To Deploy on Openshift (updated)  - follow the updated instructions bellow 
+## 3) Deploy on Openshift - follow the instructions below 
 
 ## Reserve a Managed OpenShift cluster:
 
-1. [Reserve an Openshift Cluster](https://techzone.ibm.com/collection/Easy-to-deploy-containers)
+1. [Reserve an Openshift Cluster](https://techzone.ibm.com/collection/Easy-to-deploy-containers/environments)
 
-2. You will get a few emails with information about your environment. Please notice that email that is inviting you to join an account in IBM Cloud  and follow the instructions and accept the invitation. Also notice an email stating "Your environment is ready"  follow the links it will take you to your environment "My reservations" .
+2. Select the **OpenShift Cluster (VMWare on IBM Cloud) IPI for MLX Containers** tile and use all default settings, selecting the preferred region for your cluster. After the cluster is provisioned, you will get an e-mail message with the OpenShift Cluster URL and the `kubeadmin` user password.
 
-## Access the OpenShift web console  
+![image](README_IMAGES/reservation-email.png)
 
-![](README_IMAGES/ROKS.png)
+## Access the Cluster
+
+![](README_IMAGES/OCP_VMware_login.png)
 
 ### Choose to work with Developer View
 
